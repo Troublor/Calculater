@@ -17,7 +17,7 @@
   <items>
     <AnchorPane minHeight="0.0" minWidth="0.0" opacity="0.71" prefHeight="125.0" prefWidth="498.0">
          <children>
-            <GridPane layoutX="10.0" layoutY="10.0" prefHeight="109.0" prefWidth="609.0">
+            <GridPane layoutX="7.0" layoutY="10.0" prefHeight="109.0" prefWidth="616.0">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
               </columnConstraints>
@@ -26,10 +26,11 @@
                 <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TextField fx:id="textDown" alignment="CENTER_RIGHT" disable="true" editable="false" prefHeight="69.0" prefWidth="544.0" GridPane.rowIndex="1">
+                  <TextField fx:id="textDown" alignment="CENTER_RIGHT" disable="true" editable="false" prefHeight="81.0" prefWidth="591.0" GridPane.rowIndex="1">
                      <font>
                         <Font size="35.0" />
-                     </font></TextField>
+                     </font>
+                  </TextField>
                   <TextField fx:id="textUp" alignment="CENTER_RIGHT" disable="true" editable="false" />
                </children>
             </GridPane>
@@ -57,7 +58,7 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn">
                      <GridPane.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
@@ -77,7 +78,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#genhaoClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -97,7 +98,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#zuokuohaoClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -117,7 +118,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="74.0" layoutX="-6.0" layoutY="-6.0" onMouseClicked="#youkuohaoClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="114.0">
                            <cursor>
@@ -137,7 +138,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="2">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="2">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#CClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -157,7 +158,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#lgClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -177,7 +178,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#tuigeClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -197,7 +198,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#chengfangClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -217,7 +218,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="3">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="3">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#sevenClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -237,7 +238,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#eightClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -257,7 +258,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#nineClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -277,7 +278,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#chuClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -297,7 +298,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="4">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="4">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#fourClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -317,7 +318,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#fiveClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -337,7 +338,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#sixClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -357,7 +358,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#chengClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -377,7 +378,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="5">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="5">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#oneClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -397,7 +398,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#twoClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -417,7 +418,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#threeClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -437,7 +438,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#jianClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -457,7 +458,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="6">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="6">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#dianClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -477,7 +478,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeaveNumber" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="6">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c3c5d9" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#zeroClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -497,7 +498,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-5.0" layoutY="-5.0" onMouseClicked="#dengyuClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -517,7 +518,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="6">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="-4.0" layoutY="-5.0" onMouseClicked="#jiaClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -537,7 +538,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </GridPane.margin>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="1">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.rowIndex="1">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="5.0" layoutY="7.0" onMouseClicked="#tanClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -554,7 +555,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="5.0" layoutY="7.0" onMouseClicked="#sinClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -571,7 +572,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d3d3" height="72.0" layoutX="5.0" layoutY="7.0" onMouseClicked="#cosClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="112.0">
                            <cursor>
@@ -588,7 +589,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="3.0" layoutY="5.0" onMouseClicked="#quyuClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -605,7 +606,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="4.0" layoutY="5.0" onMouseClicked="#qiehuanClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -622,7 +623,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="1">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="3.0" layoutY="5.0" onMouseClicked="#eClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -639,7 +640,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="2">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="4.0" layoutY="5.0" onMouseClicked="#PIClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -656,7 +657,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="3">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="4.0" layoutY="5.0" onMouseClicked="#jiechengClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -673,7 +674,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="4.0" layoutY="5.0" onMouseClicked="#pingfangClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -690,7 +691,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="5">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="76.0" layoutX="4.0" layoutY="5.0" onMouseClicked="#daoshuClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="118.0">
                            <cursor>
@@ -707,7 +708,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                  <Pane onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" prefHeight="200.0" prefWidth="200.0" styleClass="btn" GridPane.columnIndex="4" GridPane.rowIndex="6">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" depthTest="DISABLE" fill="LIGHTGRAY" height="74.0" layoutX="3.0" layoutY="4.0" onMouseClicked="#ANSClick" stroke="WHITE" strokeType="OUTSIDE" styleClass="btn_hover" width="120.0">
                            <cursor>
