@@ -527,8 +527,11 @@ public class CalculaterController{
 
     @FXML
     private void daoshuClick(MouseEvent event){
+        String temp = expression.get(expression.size() - 1);
+        expression.remove(expression.size() - 1);
         expression.add("1");
         expression.add("/");
+        expression.add(temp);
         showExpressionDown();
     }
 
