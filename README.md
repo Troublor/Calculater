@@ -1,5 +1,5 @@
-# Calculator
-a small, basic and simple calculater
+# Calculater
+a small, basic and simple calculator
 
 using JavaFX
 -----
