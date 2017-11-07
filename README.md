@@ -1,9 +1,9 @@
-#Calculator
+# Calculator
 a small, basic and simple calculater
 
 using JavaFX
-
-##Usage
+-----
+## Usage
 to use this small calculator, do as follows
 
 1. clone this repository to your computer
@@ -13,7 +13,7 @@ to use this small calculator, do as follows
 javac -encoding UTF-8 Calculater.java
 java Calculater
 ```
-
-##Feature
+-----
+## Feature
 1. Basic Math work
 2. Long expression evaluation
